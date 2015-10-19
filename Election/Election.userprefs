@@ -1,12 +1,6 @@
 ﻿<Properties StartupItem="Election.Web\Election.Web.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="ChromeHTML" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Election.Web\Global.asax.cs">
-    <Files>
-      <File FileName="Election.Web\Views\Web.config" Line="1" Column="1" />
-      <File FileName="Election.Web\Web.config" Line="84" Column="51" />
-      <File FileName="Election.Web\Global.asax.cs" Line="6" Column="18" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
