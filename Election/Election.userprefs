@@ -1,6 +1,11 @@
 ﻿<Properties StartupItem="Election.Web\Election.Web.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="ChromeHTML" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Election.Web\Views\Login\Index.cshtml">
+    <Files>
+      <File FileName="Election.Web\Controllers\LoginController.cs" Line="12" Column="10" />
+      <File FileName="Election.Web\Views\Login\Index.cshtml" Line="12" Column="7" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

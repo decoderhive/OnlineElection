@@ -12,5 +12,11 @@ namespace Election.Web.Controllers
         {
             return View ();
         }
+
+		[HttpPost]
+		public ActionResult Index(AuthUser user)
+		{
+			return View (user);
+		}
     }
 }
