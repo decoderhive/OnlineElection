@@ -17,7 +17,7 @@ namespace Election.Web
 			routes.MapRoute (
 				"Default",
 				"{controller}/{action}/{id}",
-				new { controller = "Home", action = "Index", id = "" }
+				new { controller = "Login", action = "Index", id = "" }
 			);
 
 		}
