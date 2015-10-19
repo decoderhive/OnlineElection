@@ -7,9 +7,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Index</title>
+    <title>Online Election :: Authentication</title>
 </head>
 <body>
+@using(Html.BeginForm()){
+@Html.AntiForgeryToken()
+	<div>
+		<div>
+			<div>@Html.LabelFor(model=>model.LoginName)</div>
+			<div>@Html.TextBoxFor(model=>model.LoginName)</div>
+		</div>
+		<div>
+			<div>@Html.LabelFor(model=>model.Password)</div>
+			<div>@Html.PasswordFor(model=>model.Password)</div>
+		</div>
+		<div>
+			<div></div>
+			<div><input type="submit" value="Login"/> </div>
+		</div>
+		<div>
+		<div>@Html.ValidationSummary()</div>
+		</div>
+	</div>
+}
+<script type="text/javascript" src="../Scripts/jquery.validate.unobtrusive.min.js"/>
 </body>
 </html>
 

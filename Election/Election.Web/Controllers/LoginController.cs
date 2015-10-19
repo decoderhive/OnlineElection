@@ -13,9 +13,14 @@ namespace Election.Web.Controllers
             return View ();
         }
 
+		[ValidateAntiForgeryToken]
 		[HttpPost]
 		public ActionResult Index(AuthUser user)
 		{
+			if (ModelState.IsValid)
+			{
+				
+			}
 			return View (user);
 		}
     }

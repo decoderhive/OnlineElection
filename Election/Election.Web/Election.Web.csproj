@@ -68,6 +68,7 @@
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
     <Folder Include="Scripts\" />
+    <Folder Include="Application\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Web.config" />
@@ -111,6 +112,11 @@
     <Content Include="Content\themes\base\theme.css" />
     <Content Include="Content\themes\base\tooltip.css" />
     <Content Include="Views\Login\Index.cshtml" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
@@ -119,6 +125,7 @@
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Models\AuthUser.cs" />
+    <Compile Include="Application\BundleConfig.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
