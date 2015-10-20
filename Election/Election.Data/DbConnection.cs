@@ -2,9 +2,9 @@
 
 namespace Election.Data
 {
-	public class MyClass
+	public class DbConnection : IDbConnection
 	{
-		public MyClass ()
+		public DbConnection()
 		{
 		}
 	}

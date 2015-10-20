@@ -2,11 +2,8 @@
 
 namespace Election.Data.Install
 {
-	public class MyClass
+	public interface IDbInstall
 	{
-		public MyClass ()
-		{
-		}
 	}
 }
 
